@@ -65,4 +65,5 @@ if($_POST['submit']) {
   <?php include_once 'includes/footer.php'; ?>
 
 </body>
+</html>
 

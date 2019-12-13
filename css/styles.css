@@ -1,7 +1,6 @@
  @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Work+Sans&display=swap');
 
 
-
 body {
   margin: 0;
   padding: 0;
@@ -12,15 +11,13 @@ body {
 #main-content {
   display: grid;
   grid-template-columns: 25% 50% 25%;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto auto auto;
 }
 
 h1 {
-  font: 30px 'Work Sans', sans-serif;
+  font: 30px 'Times', sans-serif;
 }
 
-
-/* menu page */
 
 #heading {
   grid-column: 2/3;
@@ -35,13 +32,18 @@ form {
 
 ul#measurement-types {
   list-style-type: none;
-  margin: 1em 0;
+  margin: 0 1em;
   padding: 0;
 }
 
 ul#measurement-types li {
   height: auto;
-  margin: 0 0 10px 0; padding: 0;
+  margin: 0 0 10px 0; 
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul#measurement-types li a {
@@ -56,11 +58,20 @@ ul#measurement-types li a {
 
 ul#measurement-types li a:hover {
   color: white;
+  text-shadow: 0 1px 2px #000;
   background: rgb(142, 144, 150);
   transform: scale(1.1);
   transition-duration: 1.5s;
 }
 
+#footer {
+  text-decoration: none;
+  color: black;
+  display: block;
+  background: #fff;
+  grid-column: 2/3;
+  grid-row: 3;
+}
 
 /* conversion forms */
 
