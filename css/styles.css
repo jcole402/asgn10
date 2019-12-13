@@ -1,12 +1,6 @@
  @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Work+Sans&display=swap');
 
 
-html { 
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
 
 body {
   margin: 0;
@@ -41,7 +35,8 @@ form {
 
 ul#measurement-types {
   list-style-type: none;
-  margin: 1em 0; padding: 0;
+  margin: 1em 0;
+  padding: 0;
 }
 
 ul#measurement-types li {

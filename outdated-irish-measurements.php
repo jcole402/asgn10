@@ -1,4 +1,4 @@
-s<?php
+<?php
 
 include_once('includes/functions.php');
 
@@ -20,18 +20,7 @@ if($_POST['submit']) {
 }
 
 ?>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <title>Convert Out-dated Measurements</title>
-  <link href="../css/styles.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
-
+<?php include_once 'includes/header.php'; ?>
   <div id="main-content">
     <header id="heading">
 
@@ -74,9 +63,10 @@ if($_POST['submit']) {
     <a href="index.php">Return to menu</a>
     </form>
 
-    <br>
-
   </div>
+
+    <?php include_once 'includes/footer.php'; ?>
+
 </body>
 
 </html>
